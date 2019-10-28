@@ -3,6 +3,32 @@ body{
 }
 
 header{
+    margin: 0;
+    padding: 0;
  background:linear-gradient(to right , rgba(0, 0, 0, 0.9) , rgba(0, 0, 0, 0.05)) , url('../img/background.jpg');  
-  height: 100vh;
+  height:450px
+}
+
+nav img{
+    width: 160px;
+    height: 45px;
+    vertical-align: middle;
+}
+
+.logo{
+    display:inline-block;
+    line-height: 90px;
+    margin-left: 15px;
+}
+
+.signin{
+    color: aliceblue;
+    float: right;
+    background-color: red;
+    font-display: bold;
+    text-decoration: none;
+    border-radius: 3%;
+    margin-top: 20px;
+    padding: 10px;
+
 }
