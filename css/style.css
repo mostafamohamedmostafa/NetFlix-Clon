@@ -93,6 +93,8 @@ line-height: 20px;
 
 #features > nav a img{
     height: 50px;
+    width: 50px;
+    padding: 10px;
 }
 
 #features > nav a h2{
