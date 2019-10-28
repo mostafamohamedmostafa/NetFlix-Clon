@@ -1,12 +1,17 @@
-body{
+html ,body{
     margin: 0;
+    font-display:Helvetica,sans-serif ;
+    color: white;
+    font-size: 18px;
+    background-color: black;
+
+
 }
 
 header{
-    margin: 0;
-    padding: 0;
+
  background:linear-gradient(to right , rgba(0, 0, 0, 0.9) , rgba(0, 0, 0, 0.05)) , url('../img/background.jpg');  
-  height:450px
+  height:100vh;
 }
 
 nav img{
@@ -31,4 +36,40 @@ nav img{
     margin-top: 20px;
     padding: 10px;
 
+}
+
+.home{
+    margin: 0 4%;
+    position: absolute;
+    top: 30%;
+    font-size: 1.8vw;
+}
+
+.home-title {
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+
+.home-subtitle{
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.joinbtn{
+    font-weight: 300;
+    color: white;
+    background-color: red;
+    text-align: center;
+    border: 0;
+    vertical-align: middle;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 3px;
+
+}
+
+.joinbtn:hover{
+    background-color: tomato;
+    border-color: teal;
 }
